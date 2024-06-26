@@ -25,6 +25,8 @@ WORKDIR /src/AI_model
 # Copy the requirements file
 COPY ./src/AI_model/requirements.txt ./
 
+RUN pip install --upgrade pip
+
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
