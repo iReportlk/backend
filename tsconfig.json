@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node", "cors","jest"], // Include 'node' and 'cors' type definitions
+    "lib": ["ES2015"] // Specify the JavaScript library to include (e.g., ES2015)
+  },
+  "include": ["src/**/*"], // Include all TypeScript files under the 'src' directory
+  "exclude": ["node_modules"] // Exclude 'node_modules' directory from TypeScript compilation
+}
